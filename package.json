@@ -1,0 +1,13 @@
+{
+  "name": "aviator-pro-capacitor",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "echo \"Web build placeholder (static). Place your real build outputs in ./dist or replace this with your CRA build.\" && mkdir -p dist && cp -r web/* dist/",
+    "cap:init": "npx cap init AviatorPro com.aviator.pro --web-dir=dist",
+    "cap:add-android": "npx cap add android",
+    "cap:copy": "npx cap copy",
+    "cap:open-android": "npx cap open android"
+  },
+  "devDependencies": {}
+}

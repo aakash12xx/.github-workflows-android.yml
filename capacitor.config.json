@@ -1,0 +1,6 @@
+{
+  "appId": "com.aviator.pro",
+  "appName": "AviatorPro",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
